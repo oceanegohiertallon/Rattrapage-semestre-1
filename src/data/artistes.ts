@@ -1,0 +1,60 @@
+import type { Artiste } from '../types'
+
+export const ARTISTES: Artiste[] = [
+  {
+    id: 'leo-vasseur',
+    nom: 'Léo Vasseur',
+    pays: 'France',
+    bio: 'Photographe accrédité en paddock, suit le plateau F1 depuis huit saisons, entre stands et grille de départ.',
+    photo: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&q=80',
+    tags: ['f1', 'documentaire'],
+  },
+  {
+    id: 'mika-saarinen',
+    nom: 'Mika Saarinen',
+    pays: 'Finlande',
+    bio: 'Spécialiste de la pose longue en sport automobile, capture la vitesse des monoplaces sous les nocturnes.',
+    photo: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=300&h=300&fit=crop&q=80',
+    tags: ['f1', 'contemporain'],
+  },
+  {
+    id: 'yuki-tanaka',
+    nom: 'Yuki Tanaka',
+    pays: 'Japon',
+    bio: 'Documente les arènes esport et la culture gaming asiatique, des LAN parties aux stades bondés.',
+    photo: 'https://images.unsplash.com/photo-1590086782792-42dd2350140d?w=300&h=300&fit=crop&q=80',
+    tags: ['gaming', 'contemporain'],
+  },
+  {
+    id: 'priya-nair',
+    nom: 'Priya Nair',
+    pays: 'Inde',
+    bio: 'Portraitiste des conventions gaming, entre cosplayers, communauté des joueurs et nostalgie des consoles d’hier.',
+    photo: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&h=300&fit=crop&q=80',
+    tags: ['gaming', 'portrait'],
+  },
+  {
+    id: 'elena-kowalski',
+    nom: 'Elena Kowalski',
+    pays: 'Pologne',
+    bio: 'Carnettiste de voyage, traverse l’Europe de l’Est et l’Asie sac au dos depuis dix ans.',
+    photo: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&h=300&fit=crop&q=80',
+    tags: ['voyage', 'documentaire'],
+  },
+  {
+    id: 'diego-fernandez',
+    nom: 'Diego Fernández',
+    pays: 'Chili',
+    bio: 'Photographe de voyage et de paysage, des sommets andins aux îles les plus reculées.',
+    photo: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=300&h=300&fit=crop&q=80',
+    tags: ['voyage', 'paysage'],
+  },
+  {
+    id: 'amara-ndiaye',
+    nom: 'Amara Ndiaye',
+    pays: 'Sénégal',
+    bio: 'Photographe animalière et documentariste, des réserves d’Afrique de l’Est aux espèces aujourd’hui disparues.',
+    photo: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&h=300&fit=crop&q=80',
+    tags: ['animalier', 'nature'],
+  },
+]
